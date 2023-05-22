@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-fastjsonschema
-Version  : 2.17.0
-Release  : 18
-URL      : https://files.pythonhosted.org/packages/bc/b6/4c1f5811aceadee3d28307e95a14e0ad11f688e858c66450dc483f0c1529/fastjsonschema-2.17.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bc/b6/4c1f5811aceadee3d28307e95a14e0ad11f688e858c66450dc483f0c1529/fastjsonschema-2.17.0.tar.gz
+Version  : 2.17.1
+Release  : 19
+URL      : https://files.pythonhosted.org/packages/a4/e1/cda97fa4447e138f1f0ccfdaf678fa247415f7e9f4942d856fd63c7d863c/fastjsonschema-2.17.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a4/e1/cda97fa4447e138f1f0ccfdaf678fa247415f7e9f4942d856fd63c7d863c/fastjsonschema-2.17.1.tar.gz
 Summary  : Fastest Python implementation of JSON schema
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -53,10 +53,10 @@ python3 components for the pypi-fastjsonschema package.
 
 
 %prep
-%setup -q -n fastjsonschema-2.17.0
-cd %{_builddir}/fastjsonschema-2.17.0
+%setup -q -n fastjsonschema-2.17.1
+cd %{_builddir}/fastjsonschema-2.17.1
 pushd ..
-cp -a fastjsonschema-2.17.0 buildavx2
+cp -a fastjsonschema-2.17.1 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684703249
+export SOURCE_DATE_EPOCH=1684768397
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
