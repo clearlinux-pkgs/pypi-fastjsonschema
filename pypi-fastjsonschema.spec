@@ -7,7 +7,7 @@
 #
 Name     : pypi-fastjsonschema
 Version  : 2.19.0
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/7a/61/5fc12c3a9b206e2d85399253ecbe602a753bfb54ae891bc74819ab594312/fastjsonschema-2.19.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/61/5fc12c3a9b206e2d85399253ecbe602a753bfb54ae891bc74819ab594312/fastjsonschema-2.19.0.tar.gz
 Summary  : Fastest Python implementation of JSON schema
