@@ -1,5 +1,5 @@
 PKG_NAME := pypi-fastjsonschema
-URL = https://files.pythonhosted.org/packages/7a/61/5fc12c3a9b206e2d85399253ecbe602a753bfb54ae891bc74819ab594312/fastjsonschema-2.19.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ba/7f/cedf77ace50aa60c566deaca9066750f06e1fcf6ad24f254d255bb976dd6/fastjsonschema-2.19.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
